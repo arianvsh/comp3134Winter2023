@@ -1,0 +1,106 @@
+Domain:ebay.com
+Registrar:MarkMonitor Inc.
+Registered On:1995-08-04
+Expires On:2023-08-03
+Updated On:2022-07-02
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:dns1.p06.nsone.net
+dns2.p06.nsone.net
+dns3.p06.nsone.net
+dns4.p06.nsone.net
+ns01.ebaydns.com
+ns02.ebaydns.com
+ns03.ebaydns.com
+ns04.ebaydns.com
+
+
+---------------------------------------------------
+
+
+Domain:walmart.com
+Registrar:CSC Corporate Domains, Inc.
+Registered On:1995-02-23
+Expires On:2023-09-23
+Updated On:2022-08-10
+Status:clientTransferProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:a1-185.akam.net
+a10-66.akam.net
+a22-67.akam.net
+a3-64.akam.net
+a5-65.akam.net
+a8-66.akam.net
+pdnswm1.ultradns.net
+pdnswm2.ultradns.net
+pdnswm3.ultradns.org
+pdnswm4.ultradns.org
+pdnswm5.ultradns.info
+pdnswm6.ultradns.co.uk
+
+
+---------------------------------------------------
+
+
+Domain:bestbuy.com
+Registrar:MarkMonitor Inc.
+Registered On:1994-03-03
+Expires On:2024-03-04
+Updated On:2022-01-31
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:asia3.akam.net
+eur1.akam.net
+eur2.akam.net
+ns1-118.akam.net
+ns1-119.akam.net
+usc2.akam.net
+use1.akam.net
+usw2.akam.net
+
+
+-----------------------------------------
+
+
+Domain:apple.com
+Registrar:CSC Corporate Domains, Inc.
+Registered On:1987-02-19
+Expires On:2023-02-20
+Updated On:2022-02-16
+Status:clientTransferProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:a.ns.apple.com
+b.ns.apple.com
+c.ns.apple.com
+d.ns.apple.com
+
+----------------------------------------------
+
+Domain:linkdin.com
+Registrar:MarkMonitor Inc.
+Registered On:2010-05-02
+Expires On:2023-05-02
+Updated On:2021-03-31
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+Name Servers:dns1.p09.nsone.net
+dns2.p09.nsone.net
+dns3.p09.nsone.net
+dns4.p09.nsone.net
+ns1-42.azure-dns.com
+ns2-42.azure-dns.net
+ns3-42.azure-dns.org
+ns4-42.azure-dns.info

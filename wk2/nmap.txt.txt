@@ -1,0 +1,186 @@
+root@comp3134-winter2023:~# nmap ebay.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:45 UTC
+Nmap scan report for ebay.com (209.140.136.23)
+Host is up (0.060s latency).
+Other addresses for ebay.com (not scanned): 209.140.139.232 209.140.136.254
+rDNS record for 209.140.136.23: ru-public-rnoaz03-1-1.ebay.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.78 seconds
+root@comp3134-winter2023:~# nmap uber.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:45 UTC
+Nmap scan report for uber.com (34.98.127.226)
+Host is up (0.0016s latency).
+rDNS record for 34.98.127.226: 226.127.98.34.bc.googleusercontent.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.65 seconds
+root@comp3134-winter2023:~# nmap apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:46 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.020s latency).
+Other addresses for apple.com (not scanned): 2620:149:af0::10
+rDNS record for 17.253.144.10: apple.com.uy
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.92 seconds
+
+
+----------------------------------------------------------------------------------
+
+root@comp3134-winter2023:~# nmap -p 80 apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:48 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.025s latency).
+Other addresses for apple.com (not scanned): 2620:149:af0::10
+rDNS record for 17.253.144.10: apple.com.hn
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
+root@comp3134-winter2023:~# nmap -p 22 uber.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:48 UTC
+Nmap scan report for uber.com (34.98.127.226)
+Host is up (0.0016s latency).
+rDNS record for 34.98.127.226: 226.127.98.34.bc.googleusercontent.com
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+root@comp3134-winter2023:~# nmap 80 walmart.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:48 UTC
+Nmap scan report for walmart.com (161.170.232.170)
+Host is up (0.038s latency).
+Other addresses for walmart.com (not scanned): 161.165.150.170
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 2 IP addresses (1 host up) scanned in 5.90 seconds
+
+
+----------------------------------------------------------------------------------
+
+root@comp3134-winter2023:~# nmap -p 10-30 apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:54 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.029s latency).
+Other addresses for apple.com (not scanned): 2620:149:af0::10
+rDNS record for 17.253.144.10: apple.com.hn
+
+PORT   STATE    SERVICE
+10/tcp filtered unknown
+11/tcp filtered systat
+12/tcp filtered unknown
+13/tcp filtered daytime
+14/tcp filtered unknown
+15/tcp filtered netstat
+16/tcp filtered unknown
+17/tcp filtered qotd
+18/tcp filtered msp
+19/tcp filtered chargen
+20/tcp filtered ftp-data
+21/tcp filtered ftp
+22/tcp filtered ssh
+23/tcp filtered telnet
+24/tcp filtered priv-mail
+25/tcp filtered smtp
+26/tcp filtered rsftp
+27/tcp filtered nsw-fe
+28/tcp filtered unknown
+29/tcp filtered msg-icp
+30/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 1.96 seconds
+root@comp3134-winter2023:~# nmap -p 50-60 apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:55 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.037s latency).
+Other addresses for apple.com (not scanned): 2620:149:af0::10
+rDNS record for 17.253.144.10: apple.com.hn
+
+PORT   STATE    SERVICE
+50/tcp filtered re-mail-ck
+51/tcp filtered la-maint
+52/tcp filtered xns-time
+53/tcp filtered domain
+54/tcp filtered xns-ch
+55/tcp filtered isi-gl
+56/tcp filtered xns-auth
+57/tcp filtered priv-term
+58/tcp filtered xns-mail
+59/tcp filtered priv-file
+60/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 1.83 seconds
+root@comp3134-winter2023:~# nmap -p 70-80 apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:55 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.026s latency).
+Other addresses for apple.com (not scanned): 2620:149:af0::10
+rDNS record for 17.253.144.10: apple.com.hn
+
+PORT   STATE    SERVICE
+70/tcp filtered gopher
+71/tcp filtered netrjs-1
+72/tcp filtered netrjs-2
+73/tcp filtered netrjs-3
+74/tcp filtered netrjs-4
+75/tcp filtered priv-dial
+76/tcp filtered deos
+77/tcp filtered priv-rje
+78/tcp filtered vettcp
+79/tcp filtered finger
+80/tcp open     http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.29 seconds
+
+
+-------------------------------------------------------------------------
+
+root@comp3134-winter2023:~# nmap -F apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:56 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.026s latency).
+Other addresses for apple.com (not scanned): 2620:149:af0::10
+rDNS record for 17.253.144.10: world-any.aaplimg.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.83 seconds
+root@comp3134-winter2023:~# nmap -F uber.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:56 UTC
+Nmap scan report for uber.com (34.98.127.226)
+Host is up (0.0019s latency).
+rDNS record for 34.98.127.226: 226.127.98.34.bc.googleusercontent.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.84 seconds
+root@comp3134-winter2023:~# nmap -F walmart.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-25 01:57 UTC
+Nmap scan report for walmart.com (161.165.150.170)
+Host is up (0.041s latency).
+Other addresses for walmart.com (not scanned): 161.170.232.170
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.09 seconds

@@ -1,0 +1,49 @@
+Domain: Ebay.com
+IP: 209.140.139.232
+
+Location information : ebay.com
+Country Code US
+Country Name UNITED STATES
+Region CALIFORNIA
+City CAMPBELL
+
+---------------------------------------
+
+Domain: Apple.com
+IP: 17.253.144.10
+Location information : apple.com
+Country Code US
+Country Name UNITED STATES
+Region CALIFORNIA
+City CUPERTINO
+
+-----------------------------------------
+
+Domain: Walmart.com
+IP: 161.165.150.170
+Location information : walmart.com
+Country Code US
+Country Name UNITED STATES
+Region ARKANSAS
+City BENTONVILLE
+
+----------------------------------------
+
+Domain: Bestbuy.com
+IP: 96.17.64.240
+Location information : bestbuy.com
+Country Code US
+Country Name UNITED STATES
+Region NEW YORK
+City NEW YORK
+
+------------------------------------------
+
+Domain: Uber.com
+IP: 34.98.127.226
+Location information : uber.com
+Country Code US
+Country Name UNITED STATES
+Region MISSOURI
+City KANSAS CITY
+

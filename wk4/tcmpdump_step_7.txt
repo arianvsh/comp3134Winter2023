@@ -1,0 +1,306 @@
+root@comp3134-winter2023:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+19:09:27.380286 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 2758969:2759013, ack 4187343829, win 501, length 44
+19:09:27.380365 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 44:152, ack 1, win 501, length 108
+19:09:27.380409 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 152:188, ack 1, win 501, length 36
+19:09:27.382890 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 188, win 509, length 0
+19:09:28.974916 IP comp3134-winter2023.ssh > iotserver.in.th-ubuntu-s-1vcpu-3gb-sgp1.48230: Flags [F.], seq 308076463, ack 2382323257, win 502, options [nop,nop,TS val 2597777949 ecr 562740052], length 0
+19:09:28.995358 IP 170.39.218.4.50601 > comp3134-winter2023.7263: Flags [S], seq 2581775019, win 65535, length 0
+19:09:29.201055 IP iotserver.in.th-ubuntu-s-1vcpu-3gb-sgp1.48230 > comp3134-winter2023.ssh: Flags [.], ack 1, win 501, options [nop,nop,TS val 562859292 ecr 2597777949], length 0
+19:09:29.201098 IP comp3134-winter2023 > iotserver.in.th-ubuntu-s-1vcpu-3gb-sgp1: ICMP comp3134-winter2023 tcp port ssh unreachable, length 60
+19:09:29.782508 IP 104.248.192.216.58802 > comp3134-winter2023.http: Flags [S], seq 207509713, win 29200, options [mss 1460,sackOK,TS val 25405380 ecr 0,nop,wscale 7], length 0
+19:09:29.782568 IP comp3134-winter2023.http > 104.248.192.216.58802: Flags [S.], seq 4294886862, ack 207509714, win 65160, options [mss 1460,sackOK,TS val 2941376418 ecr 25405380,nop,wscale 7], length 0
+19:09:29.879399 IP 104.248.192.216.58802 > comp3134-winter2023.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 25405478 ecr 2941376418], length 0
+19:09:29.995775 IP 104.248.192.216.58802 > comp3134-winter2023.http: Flags [P.], seq 1:278, ack 1, win 229, options [nop,nop,TS val 25405594 ecr 2941376418], length 277: HTTP: GET / HTTP/1.1
+19:09:29.995849 IP comp3134-winter2023.http > 104.248.192.216.58802: Flags [.], ack 278, win 507, options [nop,nop,TS val 2941376631 ecr 25405594], length 0
+19:09:29.996775 IP comp3134-winter2023.http > 104.248.192.216.58802: Flags [P.], seq 1:2558, ack 278, win 507, options [nop,nop,TS val 2941376632 ecr 25405594], length 2557: HTTP: HTTP/1.1 200 OK
+19:09:29.996906 IP comp3134-winter2023.http > 104.248.192.216.58802: Flags [F.], seq 2558, ack 278, win 507, options [nop,nop,TS val 2941376632 ecr 25405594], length 0
+19:09:30.092995 IP 104.248.192.216.58802 > comp3134-winter2023.http: Flags [.], ack 2558, win 269, options [nop,nop,TS val 25405691 ecr 2941376632], length 0
+19:09:30.132275 IP 104.248.192.216.58802 > comp3134-winter2023.http: Flags [.], ack 2559, win 269, options [nop,nop,TS val 25405731 ecr 2941376632], length 0
+19:09:30.422265 IP 104.248.192.216.58802 > comp3134-winter2023.http: Flags [F.], seq 278, ack 2559, win 269, options [nop,nop,TS val 25406020 ecr 2941376632], length 0
+19:09:30.422315 IP comp3134-winter2023.http > 104.248.192.216.58802: Flags [.], ack 279, win 507, options [nop,nop,TS val 2941377058 ecr 25406020], length 0
+19:09:31.357146 IP ip-113-250.4vendeta.com.44348 > comp3134-winter2023.5778: Flags [S], seq 4108754664, win 1024, length 0
+19:09:34.668990 IP 137.184.67.16.47171 > comp3134-winter2023.http-alt: Flags [S], seq 53217450, win 65535, length 0
+19:09:34.813056 IP 128.199.64.100.56588 > comp3134-winter2023.ssh: Flags [S], seq 4097054142, win 64240, options [mss 1460,sackOK,TS val 3755653400 ecr 0,nop,wscale 7], length 0
+19:09:34.813124 IP comp3134-winter2023.ssh > 128.199.64.100.56588: Flags [S.], seq 1192904327, ack 4097054143, win 65160, options [mss 1460,sackOK,TS val 1362243455 ecr 3755653400,nop,wscale 7], length 0
+19:09:35.042047 IP 128.199.64.100.56588 > comp3134-winter2023.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 3755653630 ecr 1362243455], length 0
+19:09:35.042048 IP 128.199.64.100.56588 > comp3134-winter2023.ssh: Flags [P.], seq 1:24, ack 1, win 502, options [nop,nop,TS val 3755653630 ecr 1362243455], length 23
+19:09:35.042146 IP comp3134-winter2023.ssh > 128.199.64.100.56588: Flags [.], ack 24, win 509, options [nop,nop,TS val 1362243684 ecr 3755653630], length 0
+19:09:35.054137 IP comp3134-winter2023.ssh > 128.199.64.100.56588: Flags [P.], seq 1:42, ack 24, win 509, options [nop,nop,TS val 1362243696 ecr 3755653630], length 41
+19:09:35.216990 IP 43.135.154.79.36326 > comp3134-winter2023.ssh: Flags [S], seq 1789293122, win 29200, options [mss 1424,sackOK,TS val 4009979658 ecr 0,nop,wscale 7], length 0
+19:09:35.217034 IP comp3134-winter2023 > 43.135.154.79: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:09:35.282570 IP 128.199.64.100.56588 > comp3134-winter2023.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 3755653870 ecr 1362243696], length 0
+19:09:35.282570 IP 128.199.64.100.56588 > comp3134-winter2023.ssh: Flags [P.], seq 24:672, ack 42, win 502, options [nop,nop,TS val 3755653870 ecr 1362243696], length 648
+19:09:35.282617 IP comp3134-winter2023.ssh > 128.199.64.100.56588: Flags [P.], seq 42:1098, ack 24, win 509, options [nop,nop,TS val 1362243924 ecr 3755653870], length 1056
+19:09:35.282816 IP comp3134-winter2023.ssh > 128.199.64.100.56588: Flags [.], ack 672, win 504, options [nop,nop,TS val 1362243924 ecr 3755653870], length 0
+19:09:35.285374 IP comp3134-winter2023.ssh > 128.199.64.100.56588: Flags [F.], seq 1098, ack 672, win 504, options [nop,nop,TS val 1362243927 ecr 3755653870], length 0
+19:09:35.286969 IP security.criminalip.com.38938 > comp3134-winter2023.8863: Flags [S], seq 235668544, win 65535, options [mss 1460], length 0
+19:09:35.511269 IP 128.199.64.100.56588 > comp3134-winter2023.ssh: Flags [F.], seq 672, ack 1098, win 501, options [nop,nop,TS val 3755654099 ecr 1362243924], length 0
+19:09:35.511316 IP comp3134-winter2023.ssh > 128.199.64.100.56588: Flags [.], ack 673, win 504, options [nop,nop,TS val 1362244153 ecr 3755654099], length 0
+19:09:35.513745 IP 128.199.64.100.56588 > comp3134-winter2023.ssh: Flags [.], ack 1099, win 501, options [nop,nop,TS val 3755654101 ecr 1362243927], length 0
+19:09:36.313875 IP 190.144.139.235.58010 > comp3134-winter2023.ssh: Flags [S], seq 912620839, win 5840, options [mss 1460,sackOK,TS val 1844670877 ecr 0,nop,wscale 7], length 0
+19:09:36.313921 IP comp3134-winter2023 > 190.144.139.235: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:09:38.388831 IP 185.196.220.81.50019 > comp3134-winter2023.tcpmux: Flags [S], seq 171269528, win 1024, length 0
+19:09:38.788072 IP 162.243.190.66.32820 > comp3134-winter2023.ssh: Flags [.], ack 2129920248, win 501, options [nop,nop,TS val 1064761816 ecr 2743370827], length 0
+19:09:38.788112 IP comp3134-winter2023.ssh > 162.243.190.66.32820: Flags [.], ack 1, win 502, options [nop,nop,TS val 2743385932 ecr 1060940652], length 0
+19:09:45.546025 IP 36.235.143.34.bc.googleusercontent.com.48104 > comp3134-winter2023.ssh: Flags [S], seq 4009613014, win 65320, options [mss 1420,sackOK,TS val 2523736637 ecr 0,nop,wscale 7], length 0
+19:09:45.546073 IP comp3134-winter2023 > 36.235.143.34.bc.googleusercontent.com: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:09:46.289422 IP 45.netcom-e.ru.38306 > comp3134-winter2023.ssh: Flags [S], seq 2576877798, win 29200, options [mss 1460,sackOK,TS val 3527474749 ecr 0,nop,wscale 7], length 0
+19:09:46.289467 IP comp3134-winter2023 > 45.netcom-e.ru: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:09:46.596158 IP security.criminalip.com.34209 > comp3134-winter2023.3310: Flags [S], seq 1642079021, win 65535, options [mss 1460], length 0
+19:09:51.088728 IP 147.182.228.52.57262 > comp3134-winter2023.ssh: Flags [S], seq 2155303188, win 64240, options [mss 1460,sackOK,TS val 2569912815 ecr 0,nop,wscale 7], length 0
+19:09:51.088780 IP comp3134-winter2023 > 147.182.228.52: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:09:52.414207 IP 167.99.219.243.58318 > comp3134-winter2023.http: Flags [S], seq 3952970578, win 29200, options [mss 1460,sackOK,TS val 25415104 ecr 0,nop,wscale 7], length 0
+19:09:52.414266 IP comp3134-winter2023.http > 167.99.219.243.58318: Flags [S.], seq 3379540267, ack 3952970579, win 65160, options [mss 1460,sackOK,TS val 2809292488 ecr 25415104,nop,wscale 7], length 0
+19:09:52.518733 IP 167.99.219.243.58318 > comp3134-winter2023.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 25415209 ecr 2809292488], length 0
+19:09:52.830788 IP 167.99.219.243.58318 > comp3134-winter2023.http: Flags [P.], seq 1:284, ack 1, win 229, options [nop,nop,TS val 25415521 ecr 2809292488], length 283: HTTP: GET / HTTP/1.1
+19:09:52.830856 IP comp3134-winter2023.http > 167.99.219.243.58318: Flags [.], ack 284, win 507, options [nop,nop,TS val 2809292904 ecr 25415521], length 0
+19:09:52.831415 IP comp3134-winter2023.http > 167.99.219.243.58318: Flags [P.], seq 1:2558, ack 284, win 507, options [nop,nop,TS val 2809292905 ecr 25415521], length 2557: HTTP: HTTP/1.1 200 OK
+19:09:52.831487 IP comp3134-winter2023.http > 167.99.219.243.58318: Flags [F.], seq 2558, ack 284, win 507, options [nop,nop,TS val 2809292905 ecr 25415521], length 0
+19:09:52.935020 IP 167.99.219.243.58318 > comp3134-winter2023.http: Flags [.], ack 2558, win 269, options [nop,nop,TS val 25415625 ecr 2809292905], length 0
+19:09:52.974093 IP 167.99.219.243.58318 > comp3134-winter2023.http: Flags [.], ack 2559, win 269, options [nop,nop,TS val 25415665 ecr 2809292905], length 0
+19:09:53.121697 IP 167.99.219.243.58318 > comp3134-winter2023.http: Flags [F.], seq 284, ack 2559, win 269, options [nop,nop,TS val 25415812 ecr 2809292905], length 0
+19:09:53.121739 IP comp3134-winter2023.http > 167.99.219.243.58318: Flags [.], ack 285, win 507, options [nop,nop,TS val 2809293195 ecr 25415812], length 0
+19:09:53.180564 IP static-161-82-233-179.violin.co.th.34204 > comp3134-winter2023.ssh: Flags [S], seq 2627840701, win 64240, options [mss 1460,sackOK,TS val 3632430707 ecr 0,nop,wscale 7], length 0
+19:09:53.180622 IP comp3134-winter2023 > static-161-82-233-179.violin.co.th: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:09:53.717722 IP 104.156.155.10.50304 > comp3134-winter2023.880: Flags [S], seq 3798219029, win 1024, length 0
+19:09:53.891642 IP 162.243.190.66.32820 > comp3134-winter2023.ssh: Flags [.], ack 1, win 501, options [nop,nop,TS val 1064776920 ecr 2743385932], length 0
+19:09:53.891684 IP comp3134-winter2023.ssh > 162.243.190.66.32820: Flags [.], ack 1, win 502, options [nop,nop,TS val 2743401035 ecr 1060940652], length 0
+19:09:55.284728 IP recyber.net.40080 > comp3134-winter2023.3609: Flags [S], seq 2114281273, win 1024, length 0
+19:09:57.923184 IP6 fe80::fcc3:bbff:fe15:d1fc > ip6-allrouters: ICMP6, router solicitation, length 16
+19:09:58.470577 IP 143.198.216.20.54800 > comp3134-winter2023.ssh: Flags [S], seq 1433885045, win 64240, options [mss 1460,sackOK,TS val 4209371118 ecr 0,nop,wscale 7], length 0
+19:09:58.470635 IP comp3134-winter2023 > 143.198.216.20: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:10:02.663057 IP 193.37.255.114.23320 > comp3134-winter2023.1337: Flags [S], seq 750399117, win 60288, options [mss 1460], length 0
+19:10:03.477049 IP iotserver.in.th-ubuntu-s-1vcpu-3gb-sgp1.51022 > comp3134-winter2023.ssh: Flags [S], seq 4213567507, win 64240, options [mss 1460,sackOK,TS val 562893570 ecr 0,nop,wscale 7], length 0
+19:10:03.477124 IP comp3134-winter2023 > iotserver.in.th-ubuntu-s-1vcpu-3gb-sgp1: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:10:05.529401 IP msnbot-52-167-144-58.search.msn.com.50560 > comp3134-winter2023.http: Flags [S], seq 894640698, win 64240, options [mss 1440,nop,nop,sackOK], length 0
+19:10:05.529471 IP comp3134-winter2023.http > msnbot-52-167-144-58.search.msn.com.50560: Flags [S.], seq 4191658236, ack 894640699, win 64240, options [mss 1460,nop,nop,sackOK], length 0
+19:10:05.549003 IP msnbot-52-167-144-58.search.msn.com.50560 > comp3134-winter2023.http: Flags [.], ack 1, win 64240, length 0
+19:10:05.549003 IP msnbot-52-167-144-58.search.msn.com.50560 > comp3134-winter2023.http: Flags [P.], seq 1:440, ack 1, win 64240, length 439: HTTP: GET /filedownload?redir_esc=12060&FileName=AlwaysOnMyMindWillieNelsonStrummingPatternDdd.pdf HTTP/1.1
+19:10:05.549106 IP comp3134-winter2023.http > msnbot-52-167-144-58.search.msn.com.50560: Flags [.], ack 440, win 63801, length 0
+19:10:05.549588 IP comp3134-winter2023.http > msnbot-52-167-144-58.search.msn.com.50560: Flags [P.], seq 1:503, ack 440, win 63801, length 502: HTTP: HTTP/1.1 404 Not Found
+19:10:05.620777 IP msnbot-52-167-144-58.search.msn.com.50560 > comp3134-winter2023.http: Flags [.], ack 503, win 63738, length 0
+19:10:05.681422 IP msnbot-52-167-144-58.search.msn.com.50560 > comp3134-winter2023.http: Flags [F.], seq 440, ack 503, win 63738, length 0
+19:10:05.681547 IP comp3134-winter2023.http > msnbot-52-167-144-58.search.msn.com.50560: Flags [F.], seq 503, ack 441, win 63801, length 0
+19:10:05.699814 IP msnbot-52-167-144-58.search.msn.com.50560 > comp3134-winter2023.http: Flags [.], ack 504, win 63738, length 0
+19:10:08.996206 IP 162.243.190.66.32820 > comp3134-winter2023.ssh: Flags [.], ack 1, win 501, options [nop,nop,TS val 1064792024 ecr 2743401035], length 0
+19:10:08.996249 IP comp3134-winter2023.ssh > 162.243.190.66.32820: Flags [.], ack 1, win 502, options [nop,nop,TS val 2743416140 ecr 1060940652], length 0
+19:10:10.596405 IP ec2-3-91-0-187.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:10:10.596455 IP comp3134-winter2023 > ec2-3-91-0-187.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:10:10.697875 IP ec2-3-208-30-63.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:10:10.697931 IP comp3134-winter2023 > ec2-3-208-30-63.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:10:10.710842 IP ec2-3-84-68-53.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:10:10.711184 IP comp3134-winter2023 > ec2-3-84-68-53.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:10:10.990848 IP ec2-3-234-216-220.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:10:10.991081 IP comp3134-winter2023 > ec2-3-234-216-220.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:10:11.026780 IP ec2-44-202-74-189.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:10:11.026835 IP comp3134-winter2023 > ec2-44-202-74-189.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:10:11.139846 IP 118.123.105.90.56969 > comp3134-winter2023.6668: Flags [S], seq 1466997320, win 63540, length 0
+19:10:11.240229 IP ec2-54-174-166-131.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:10:11.240279 IP comp3134-winter2023 > ec2-54-174-166-131.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:10:11.723942 IP ec2-54-221-21-66.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:10:11.724002 IP comp3134-winter2023 > ec2-54-221-21-66.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:10:11.887694 IP ec2-18-212-173-247.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:10:11.887746 IP comp3134-winter2023 > ec2-18-212-173-247.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:10:11.936208 IP ec2-50-19-59-76.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:10:11.936249 IP comp3134-winter2023 > ec2-50-19-59-76.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:10:11.996042 IP ec2-35-173-217-63.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:10:11.996163 IP comp3134-winter2023 > ec2-35-173-217-63.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:10:11.997052 IP ec2-3-230-152-15.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:10:11.997082 IP comp3134-winter2023 > ec2-3-230-152-15.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:10:12.057353 IP 165.22.205.58.46958 > comp3134-winter2023.http: Flags [S], seq 77831667, win 29200, options [mss 1460,sackOK,TS val 14631704 ecr 0,nop,wscale 7], length 0
+19:10:12.057418 IP comp3134-winter2023.http > 165.22.205.58.46958: Flags [S.], seq 1186307702, ack 77831668, win 65160, options [mss 1460,sackOK,TS val 29828975 ecr 14631704,nop,wscale 7], length 0
+19:10:12.157638 IP 165.22.205.58.46958 > comp3134-winter2023.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 14631805 ecr 29828975], length 0
+19:10:12.523197 IP 165.22.205.58.46958 > comp3134-winter2023.http: Flags [P.], seq 1:283, ack 1, win 229, options [nop,nop,TS val 14632170 ecr 29828975], length 282: HTTP: GET / HTTP/1.1
+19:10:12.523268 IP comp3134-winter2023.http > 165.22.205.58.46958: Flags [.], ack 283, win 507, options [nop,nop,TS val 29829441 ecr 14632170], length 0
+19:10:12.524010 IP comp3134-winter2023.http > 165.22.205.58.46958: Flags [P.], seq 1:2558, ack 283, win 507, options [nop,nop,TS val 29829441 ecr 14632170], length 2557: HTTP: HTTP/1.1 200 OK
+19:10:12.524215 IP comp3134-winter2023.http > 165.22.205.58.46958: Flags [F.], seq 2558, ack 283, win 507, options [nop,nop,TS val 29829442 ecr 14632170], length 0
+19:10:12.623920 IP 165.22.205.58.46958 > comp3134-winter2023.http: Flags [.], ack 2558, win 269, options [nop,nop,TS val 14632271 ecr 29829441], length 0
+19:10:12.663232 IP 165.22.205.58.46958 > comp3134-winter2023.http: Flags [.], ack 2559, win 269, options [nop,nop,TS val 14632311 ecr 29829442], length 0
+19:10:12.868611 IP 165.22.205.58.46958 > comp3134-winter2023.http: Flags [F.], seq 283, ack 2559, win 269, options [nop,nop,TS val 14632516 ecr 29829442], length 0
+19:10:12.868658 IP comp3134-winter2023.http > 165.22.205.58.46958: Flags [.], ack 284, win 507, options [nop,nop,TS val 29829786 ecr 14632516], length 0
+19:10:13.788287 IP ec2-44-200-0-130.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:10:13.788339 IP comp3134-winter2023 > ec2-44-200-0-130.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:10:14.327311 IP ec2-54-208-50-192.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:10:14.327370 IP comp3134-winter2023 > ec2-54-208-50-192.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:10:14.494597 IP 61.177.173.49.49626 > comp3134-winter2023.ssh: Flags [S], seq 487963210, win 29200, options [mss 1460,sackOK,TS val 2745051 ecr 0,nop,wscale 7], length 0
+19:10:14.494798 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [S.], seq 2971657503, ack 487963211, win 65160, options [mss 1460,sackOK,TS val 708905098 ecr 2745051,nop,wscale 7], length 0
+19:10:14.756014 IP 61.177.173.49.49626 > comp3134-winter2023.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 2745116 ecr 708905098], length 0
+19:10:14.756014 IP 61.177.173.49.49626 > comp3134-winter2023.ssh: Flags [P.], seq 1:16, ack 1, win 229, options [nop,nop,TS val 2745116 ecr 708905098], length 15
+19:10:14.768370 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 708905372 ecr 2745116], length 41
+19:10:15.029551 IP 61.177.173.49.49626 > comp3134-winter2023.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 2745185 ecr 708905372], length 0
+19:10:15.545528 IP 61.177.173.49.49626 > comp3134-winter2023.ssh: Flags [P.], seq 16:872, ack 42, win 229, options [nop,nop,TS val 2745314 ecr 708905372], length 856
+19:10:15.883689 IP ec2-52-3-252-78.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:10:15.883736 IP comp3134-winter2023 > ec2-52-3-252-78.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:10:16.333457 IP 61.177.173.49.49626 > comp3134-winter2023.ssh: Flags [P.], seq 1:872, ack 42, win 229, options [nop,nop,TS val 2745511 ecr 708905372], length 871
+19:10:16.333664 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [.], ack 872, win 504, options [nop,nop,TS val 708906937 ecr 2745511], length 0
+19:10:16.335463 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708906939 ecr 2745511], length 1056
+19:10:17.089931 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708907693 ecr 2745511], length 1056
+19:10:17.889936 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708908493 ecr 2745511], length 1056
+19:10:19.489942 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708910093 ecr 2745511], length 1056
+19:10:20.548444 IP static.205.187.12.49.clients.your-server.de.46467 > comp3134-winter2023.9001: Flags [S], seq 602363062, win 65535, length 0
+19:10:22.881905 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708913485 ecr 2745511], length 1056
+19:10:23.093309 IP 20.38.109.208.host.secureserver.net.49386 > comp3134-winter2023.ssh: Flags [S], seq 1127990136, win 29200, options [mss 1460,sackOK,TS val 1523964019 ecr 0,nop,wscale 7], length 0
+19:10:23.093365 IP comp3134-winter2023 > 20.38.109.208.host.secureserver.net: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:10:24.100475 IP 162.243.190.66.32820 > comp3134-winter2023.ssh: Flags [.], ack 1, win 501, options [nop,nop,TS val 1064807128 ecr 2743416140], length 0
+19:10:24.100522 IP comp3134-winter2023.ssh > 162.243.190.66.32820: Flags [.], ack 1, win 502, options [nop,nop,TS val 2743431244 ecr 1060940652], length 0
+19:10:25.629232 IP 128.199.64.100.42048 > comp3134-winter2023.ssh: Flags [S], seq 1551683525, win 64240, options [mss 1460,sackOK,TS val 3755704212 ecr 0,nop,wscale 7], length 0
+19:10:25.629426 IP comp3134-winter2023.ssh > 128.199.64.100.42048: Flags [S.], seq 406917968, ack 1551683526, win 65160, options [mss 1460,sackOK,TS val 1362294271 ecr 3755704212,nop,wscale 7], length 0
+19:10:25.857820 IP 128.199.64.100.42048 > comp3134-winter2023.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 3755704442 ecr 1362294271], length 0
+19:10:25.857821 IP 128.199.64.100.42048 > comp3134-winter2023.ssh: Flags [P.], seq 1:24, ack 1, win 502, options [nop,nop,TS val 3755704442 ecr 1362294271], length 23
+19:10:25.857941 IP comp3134-winter2023.ssh > 128.199.64.100.42048: Flags [.], ack 24, win 509, options [nop,nop,TS val 1362294499 ecr 3755704442], length 0
+19:10:25.873988 IP comp3134-winter2023.ssh > 128.199.64.100.42048: Flags [P.], seq 1:42, ack 24, win 509, options [nop,nop,TS val 1362294515 ecr 3755704442], length 41
+19:10:26.101004 IP 128.199.64.100.42048 > comp3134-winter2023.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 3755704685 ecr 1362294515], length 0
+19:10:26.101057 IP comp3134-winter2023.ssh > 128.199.64.100.42048: Flags [P.], seq 42:1098, ack 24, win 509, options [nop,nop,TS val 1362294742 ecr 3755704685], length 1056
+19:10:26.101387 IP 128.199.64.100.42048 > comp3134-winter2023.ssh: Flags [P.], seq 24:672, ack 42, win 502, options [nop,nop,TS val 3755704685 ecr 1362294515], length 648
+19:10:26.101422 IP comp3134-winter2023.ssh > 128.199.64.100.42048: Flags [.], ack 672, win 504, options [nop,nop,TS val 1362294743 ecr 3755704685], length 0
+19:10:26.106646 IP comp3134-winter2023.ssh > 128.199.64.100.42048: Flags [F.], seq 1098, ack 672, win 504, options [nop,nop,TS val 1362294748 ecr 3755704685], length 0
+19:10:26.327592 IP 128.199.64.100.42048 > comp3134-winter2023.ssh: Flags [F.], seq 672, ack 1098, win 501, options [nop,nop,TS val 3755704912 ecr 1362294742], length 0
+19:10:26.327645 IP comp3134-winter2023.ssh > 128.199.64.100.42048: Flags [.], ack 673, win 504, options [nop,nop,TS val 1362294969 ecr 3755704912], length 0
+19:10:26.333640 IP 128.199.64.100.42048 > comp3134-winter2023.ssh: Flags [.], ack 1099, win 501, options [nop,nop,TS val 3755704917 ecr 1362294748], length 0
+19:10:29.281945 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708919885 ecr 2745511], length 1056
+19:10:29.699164 IP turtle.census.shodan.io.24453 > comp3134-winter2023.80: UDP, length 48
+19:10:32.097866 IP security.criminalip.com.44102 > comp3134-winter2023.40910: Flags [S], seq 3589358916, win 65535, options [mss 1460], length 0
+19:10:33.072609 IP 161.35.85.13.57812 > comp3134-winter2023.http: Flags [S], seq 2167931819, win 29200, options [mss 1460,sackOK,TS val 3861612 ecr 0,nop,wscale 7], length 0
+19:10:33.072676 IP comp3134-winter2023.http > 161.35.85.13.57812: Flags [S.], seq 2933878053, ack 2167931820, win 65160, options [mss 1460,sackOK,TS val 2086207850 ecr 3861612,nop,wscale 7], length 0
+19:10:33.176442 IP 161.35.85.13.57812 > comp3134-winter2023.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 3861716 ecr 2086207850], length 0
+19:10:33.329233 IP 161.35.85.13.57812 > comp3134-winter2023.http: Flags [P.], seq 1:264, ack 1, win 229, options [nop,nop,TS val 3861869 ecr 2086207850], length 263: HTTP: GET / HTTP/1.1
+19:10:33.329304 IP comp3134-winter2023.http > 161.35.85.13.57812: Flags [.], ack 264, win 508, options [nop,nop,TS val 2086208107 ecr 3861869], length 0
+19:10:33.329914 IP comp3134-winter2023.http > 161.35.85.13.57812: Flags [P.], seq 1:2558, ack 264, win 508, options [nop,nop,TS val 2086208107 ecr 3861869], length 2557: HTTP: HTTP/1.1 200 OK
+19:10:33.330010 IP comp3134-winter2023.http > 161.35.85.13.57812: Flags [F.], seq 2558, ack 264, win 508, options [nop,nop,TS val 2086208107 ecr 3861869], length 0
+19:10:33.433667 IP 161.35.85.13.57812 > comp3134-winter2023.http: Flags [.], ack 2558, win 269, options [nop,nop,TS val 3861974 ecr 2086208107], length 0
+19:10:33.473488 IP 161.35.85.13.57812 > comp3134-winter2023.http: Flags [.], ack 2559, win 269, options [nop,nop,TS val 3862014 ecr 2086208107], length 0
+19:10:33.795743 IP 161.35.85.13.57812 > comp3134-winter2023.http: Flags [F.], seq 264, ack 2559, win 269, options [nop,nop,TS val 3862336 ecr 2086208107], length 0
+19:10:33.795793 IP comp3134-winter2023.http > 161.35.85.13.57812: Flags [.], ack 265, win 508, options [nop,nop,TS val 2086208573 ecr 3862336], length 0
+19:10:39.203902 IP 162.243.190.66.32820 > comp3134-winter2023.ssh: Flags [.], ack 1, win 501, options [nop,nop,TS val 1064822232 ecr 2743431244], length 0
+19:10:39.203943 IP comp3134-winter2023.ssh > 162.243.190.66.32820: Flags [.], ack 1, win 502, options [nop,nop,TS val 2743446347 ecr 1060940652], length 0
+19:10:39.518231 IP 104.244.78.26.44223 > comp3134-winter2023.808: Flags [S], seq 584590520, win 1024, options [mss 536], length 0
+19:10:40.561666 IP 43.135.154.79.60420 > comp3134-winter2023.ssh: Flags [S], seq 3019652700, win 29200, options [mss 1424,sackOK,TS val 4010045002 ecr 0,nop,wscale 7], length 0
+19:10:40.561721 IP comp3134-winter2023 > 43.135.154.79: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:10:40.686748 IP 190.144.139.235.37979 > comp3134-winter2023.ssh: Flags [S], seq 2887179130, win 5840, options [mss 1460,sackOK,TS val 1844686971 ecr 0,nop,wscale 7], length 0
+19:10:40.686813 IP comp3134-winter2023 > 190.144.139.235: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:10:42.082114 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708932685 ecr 2745511], length 1056
+19:10:44.018236 IP 89.248.163.71.43327 > comp3134-winter2023.5110: Flags [S], seq 255681817, win 1024, length 0
+19:10:47.631685 IP 104.244.78.26.44223 > comp3134-winter2023.81: Flags [S], seq 559376807, win 1024, options [mss 536], length 0
+19:10:52.413365 IP 104.244.78.26.44223 > comp3134-winter2023.8123: Flags [S], seq 595430504, win 1024, options [mss 536], length 0
+19:10:52.479374 IP 104.244.78.26.44223 > comp3134-winter2023.http-alt: Flags [S], seq 457487443, win 1024, options [mss 536], length 0
+19:10:52.957230 IP 43.130.57.239.23127 > comp3134-winter2023.15006: Flags [S], seq 419943419, win 65535, options [mss 1424,nop,wscale 8,nop,nop,sackOK], length 0
+19:10:53.672739 IP 164.92.223.93.54162 > comp3134-winter2023.http: Flags [S], seq 985779846, win 29200, options [mss 1460,sackOK,TS val 25487228 ecr 0,nop,wscale 7], length 0
+19:10:53.672802 IP comp3134-winter2023.http > 164.92.223.93.54162: Flags [S.], seq 3351300477, ack 985779847, win 65160, options [mss 1460,sackOK,TS val 1732884229 ecr 25487228,nop,wscale 7], length 0
+19:10:53.768128 IP 164.92.223.93.54162 > comp3134-winter2023.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 25487325 ecr 1732884229], length 0
+19:10:54.075098 IP 164.92.223.93.54162 > comp3134-winter2023.http: Flags [P.], seq 1:266, ack 1, win 229, options [nop,nop,TS val 25487632 ecr 1732884229], length 265: HTTP: GET / HTTP/1.1
+19:10:54.075424 IP comp3134-winter2023.http > 164.92.223.93.54162: Flags [.], ack 266, win 507, options [nop,nop,TS val 1732884632 ecr 25487632], length 0
+19:10:54.076066 IP comp3134-winter2023.http > 164.92.223.93.54162: Flags [P.], seq 1:2558, ack 266, win 507, options [nop,nop,TS val 1732884632 ecr 25487632], length 2557: HTTP: HTTP/1.1 200 OK
+19:10:54.076224 IP comp3134-winter2023.http > 164.92.223.93.54162: Flags [F.], seq 2558, ack 266, win 507, options [nop,nop,TS val 1732884633 ecr 25487632], length 0
+19:10:54.170923 IP 164.92.223.93.54162 > comp3134-winter2023.http: Flags [.], ack 1449, win 251, options [nop,nop,TS val 25487727 ecr 1732884632], length 0
+19:10:54.170923 IP 164.92.223.93.54162 > comp3134-winter2023.http: Flags [.], ack 2558, win 274, options [nop,nop,TS val 25487727 ecr 1732884632], length 0
+19:10:54.211000 IP 164.92.223.93.54162 > comp3134-winter2023.http: Flags [.], ack 2559, win 274, options [nop,nop,TS val 25487768 ecr 1732884633], length 0
+19:10:54.308603 IP 162.243.190.66.32820 > comp3134-winter2023.ssh: Flags [.], ack 1, win 501, options [nop,nop,TS val 1064837336 ecr 2743446347], length 0
+19:10:54.308651 IP comp3134-winter2023.ssh > 162.243.190.66.32820: Flags [.], ack 1, win 502, options [nop,nop,TS val 2743461452 ecr 1060940652], length 0
+19:10:54.474834 IP 164.92.223.93.54162 > comp3134-winter2023.http: Flags [F.], seq 266, ack 2559, win 274, options [nop,nop,TS val 25488031 ecr 1732884633], length 0
+19:10:54.474882 IP comp3134-winter2023.http > 164.92.223.93.54162: Flags [.], ack 267, win 507, options [nop,nop,TS val 1732885031 ecr 25488031], length 0
+19:10:58.896523 IP 147.182.228.52.46142 > comp3134-winter2023.ssh: Flags [S], seq 2496089779, win 64240, options [mss 1460,sackOK,TS val 2569980623 ecr 0,nop,wscale 7], length 0
+19:10:58.896567 IP comp3134-winter2023 > 147.182.228.52: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:10:59.455788 IP 45.netcom-e.ru.34530 > comp3134-winter2023.ssh: Flags [S], seq 731493279, win 29200, options [mss 1460,sackOK,TS val 3527547915 ecr 0,nop,wscale 7], length 0
+19:10:59.455843 IP comp3134-winter2023 > 45.netcom-e.ru: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:11:02.519031 IP 36.235.143.34.bc.googleusercontent.com.35952 > comp3134-winter2023.ssh: Flags [S], seq 2868104547, win 65320, options [mss 1420,sackOK,TS val 2523813610 ecr 0,nop,wscale 7], length 0
+19:11:02.519075 IP comp3134-winter2023 > 36.235.143.34.bc.googleusercontent.com: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:11:03.009272 IP 104.244.78.26.44223 > comp3134-winter2023.tproxy: Flags [S], seq 2466408621, win 1024, options [mss 536], length 0
+19:11:03.639972 IP 104.244.78.26.44223 > comp3134-winter2023.3128: Flags [S], seq 1332343653, win 1024, options [mss 536], length 0
+19:11:05.687582 IP comp3134-winter2023.34668 > 169.254.169.254.http: Flags [S], seq 2038353488, win 64240, options [mss 1460,sackOK,TS val 2791265128 ecr 0,nop,wscale 7], length 0
+19:11:05.688888 IP 169.254.169.254.http > comp3134-winter2023.34668: Flags [S.], seq 4154600814, ack 2038353489, win 65016, options [mss 1560,sackOK,TS val 4182697671 ecr 2791265128,nop,wscale 7], length 0
+19:11:05.688928 IP comp3134-winter2023.34668 > 169.254.169.254.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 2791265129 ecr 4182697671], length 0
+19:11:05.689073 IP comp3134-winter2023.34668 > 169.254.169.254.http: Flags [P.], seq 1:1197, ack 1, win 502, options [nop,nop,TS val 2791265129 ecr 4182697671], length 1196: HTTP: POST /v1/metrics/droplet_id/337372371 HTTP/1.1
+19:11:05.689289 IP 169.254.169.254.http > comp3134-winter2023.34668: Flags [.], ack 1197, win 500, options [nop,nop,TS val 4182697672 ecr 2791265129], length 0
+19:11:05.708239 IP 169.254.169.254.http > comp3134-winter2023.34668: Flags [P.], seq 1:228, ack 1197, win 500, options [nop,nop,TS val 4182697691 ecr 2791265129], length 227: HTTP: HTTP/1.1 202 Accepted
+19:11:05.708239 IP 169.254.169.254.http > comp3134-winter2023.34668: Flags [F.], seq 228, ack 1197, win 500, options [nop,nop,TS val 4182697691 ecr 2791265129], length 0
+19:11:05.708284 IP comp3134-winter2023.34668 > 169.254.169.254.http: Flags [.], ack 228, win 501, options [nop,nop,TS val 2791265149 ecr 4182697691], length 0
+19:11:05.708553 IP comp3134-winter2023.34668 > 169.254.169.254.http: Flags [F.], seq 1197, ack 229, win 501, options [nop,nop,TS val 2791265149 ecr 4182697691], length 0
+19:11:05.708669 IP 169.254.169.254.http > comp3134-winter2023.34668: Flags [.], ack 1198, win 500, options [nop,nop,TS val 4182697691 ecr 2791265149], length 0
+19:11:06.931157 IP 104.244.78.26.44223 > comp3134-winter2023.9999: Flags [S], seq 3960334018, win 1024, options [mss 536], length 0
+19:11:07.288067 IP 222.73.136.199.45858 > comp3134-winter2023.ms-sql-s: Flags [S], seq 1794084739, win 1024, length 0
+19:11:07.681936 IP comp3134-winter2023.ssh > 61.177.173.49.49626: Flags [P.], seq 42:1098, ack 872, win 504, options [nop,nop,TS val 708958285 ecr 2745511], length 1056
+19:11:08.140599 IP 104.244.78.26.44223 > comp3134-winter2023.8888: Flags [S], seq 3192317305, win 1024, options [mss 536], length 0
+19:11:08.313201 IP 60.53.35.19.50121 > comp3134-winter2023.23: UDP, length 14
+19:11:08.324493 IP 60.53.35.19.50174 > comp3134-winter2023.110: UDP, length 14
+19:11:08.327660 IP 60.53.35.19.50122 > comp3134-winter2023.119: UDP, length 14
+19:11:08.633240 IP 60.53.35.19.57911 > comp3134-winter2023.iso-tsap: Flags [S], seq 1085297282, win 65535, options [mss 1452,sackOK,TS val 39677410 ecr 0,nop,wscale 6], length 0
+19:11:08.635484 IP 60.53.35.19.57949 > comp3134-winter2023.pop3: Flags [S], seq 3900036934, win 65535, options [mss 1452,sackOK,TS val 39677411 ecr 0,nop,wscale 6], length 0
+19:11:08.638591 IP 60.53.35.19.57928 > comp3134-winter2023.nntp: Flags [S], seq 1448244486, win 65535, options [mss 1452,sackOK,TS val 39677412 ecr 0,nop,wscale 6], length 0
+19:11:08.674623 IP 60.53.35.19.50121 > comp3134-winter2023.23: UDP, length 14
+19:11:08.710612 IP 60.53.35.19.50122 > comp3134-winter2023.119: UDP, length 14
+19:11:08.718570 IP 60.53.35.19.50174 > comp3134-winter2023.110: UDP, length 14
+19:11:08.994571 IP 60.53.35.19.50121 > comp3134-winter2023.23: UDP, length 14
+19:11:09.024610 IP 60.53.35.19.50122 > comp3134-winter2023.119: UDP, length 14
+19:11:09.027569 IP 60.53.35.19.50174 > comp3134-winter2023.110: UDP, length 14
+19:11:09.416727 IP 162.243.190.66.32820 > comp3134-winter2023.ssh: Flags [.], ack 1, win 501, options [nop,nop,TS val 1064852444 ecr 2743461452], length 0
+19:11:09.416772 IP comp3134-winter2023.ssh > 162.243.190.66.32820: Flags [.], ack 1, win 502, options [nop,nop,TS val 2743476560 ecr 1060940652], length 0
+19:11:09.637522 IP 60.53.35.19.57949 > comp3134-winter2023.pop3: Flags [S], seq 3900036934, win 65535, options [mss 1452,sackOK,TS val 39677712 ecr 0,nop,wscale 6], length 0
+19:11:09.637522 IP 60.53.35.19.57911 > comp3134-winter2023.iso-tsap: Flags [S], seq 1085297282, win 65535, options [mss 1452,sackOK,TS val 39677712 ecr 0,nop,wscale 6], length 0
+19:11:09.662582 IP 60.53.35.19.57928 > comp3134-winter2023.nntp: Flags [S], seq 1448244486, win 65535, options [mss 1452,sackOK,TS val 39677720 ecr 0,nop,wscale 6], length 0
+19:11:10.321275 IP 60.53.35.19.50121 > comp3134-winter2023.23: UDP, length 14
+19:11:10.346671 IP 60.53.35.19.50122 > comp3134-winter2023.119: UDP, length 14
+19:11:10.351572 IP 60.53.35.19.50174 > comp3134-winter2023.110: UDP, length 14
+19:11:10.624674 IP 60.53.35.19.50121 > comp3134-winter2023.23: UDP, length 14
+19:11:10.925301 IP static-161-82-233-179.violin.co.th.58534 > comp3134-winter2023.ssh: Flags [S], seq 3669309467, win 64240, options [mss 1460,sackOK,TS val 3632508454 ecr 0,nop,wscale 7], length 0
+19:11:10.925356 IP comp3134-winter2023 > static-161-82-233-179.violin.co.th: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:11:11.606782 IP ec2-54-92-161-15.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:11:11.606831 IP comp3134-winter2023 > ec2-54-92-161-15.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:11:11.628204 IP ec2-18-235-1-202.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:11:11.628259 IP comp3134-winter2023 > ec2-18-235-1-202.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:11:11.640022 IP ec2-18-212-3-227.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:11:11.640074 IP comp3134-winter2023 > ec2-18-212-3-227.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:11:11.680781 IP 60.53.35.19.50122 > comp3134-winter2023.119: UDP, length 14
+19:11:11.681444 IP 60.53.35.19.50174 > comp3134-winter2023.110: UDP, length 14
+19:11:11.716605 IP 60.53.35.19.57928 > comp3134-winter2023.nntp: Flags [S], seq 1448244486, win 65535, options [mss 1452,sackOK,TS val 39678336 ecr 0,nop,wscale 6], length 0
+19:11:11.717137 IP 60.53.35.19.57949 > comp3134-winter2023.pop3: Flags [S], seq 3900036934, win 65535, options [mss 1452,sackOK,TS val 39678336 ecr 0,nop,wscale 6], length 0
+19:11:11.718316 IP 60.53.35.19.57911 > comp3134-winter2023.iso-tsap: Flags [S], seq 1085297282, win 65535, options [mss 1452,sackOK,TS val 39678336 ecr 0,nop,wscale 6], length 0
+19:11:11.774506 IP ec2-18-207-131-108.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:11:11.774548 IP comp3134-winter2023 > ec2-18-207-131-108.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:11:11.878763 IP ec2-54-84-221-23.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:11:11.878822 IP comp3134-winter2023 > ec2-54-84-221-23.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:11:12.205571 IP ec2-44-192-81-204.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:11:12.205620 IP comp3134-winter2023 > ec2-44-192-81-204.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:11:12.222624 IP ec2-34-230-56-159.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:11:12.222671 IP comp3134-winter2023 > ec2-34-230-56-159.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:11:12.377266 IP ec2-54-82-69-174.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:11:12.377316 IP comp3134-winter2023 > ec2-54-82-69-174.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:11:13.097710 IP ec2-44-201-45-157.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:11:13.097757 IP comp3134-winter2023 > ec2-44-201-45-157.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:11:13.154884 IP ec2-3-82-252-83.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:11:13.154938 IP comp3134-winter2023 > ec2-3-82-252-83.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:11:14.615780 IP ec2-54-167-170-222.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 3, seq 5342, length 16
+19:11:14.615821 IP comp3134-winter2023 > ec2-54-167-170-222.compute-1.amazonaws.com: ICMP echo reply, id 3, seq 5342, length 16
+19:11:15.549209 IP 157.245.70.39.46578 > comp3134-winter2023.http: Flags [S], seq 2033842036, win 29200, options [mss 1460,sackOK,TS val 36305102 ecr 0,nop,wscale 7], length 0
+19:11:15.549283 IP comp3134-winter2023.http > 157.245.70.39.46578: Flags [S.], seq 908576212, ack 2033842037, win 65160, options [mss 1460,sackOK,TS val 1494016664 ecr 36305102,nop,wscale 7], length 0
+19:11:15.644341 IP 157.245.70.39.46578 > comp3134-winter2023.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 36305197 ecr 1494016664], length 0
+19:11:15.879737 IP ec2-54-237-111-23.compute-1.amazonaws.com > comp3134-winter2023: ICMP echo request, id 5, seq 19913, length 16
+19:11:15.879787 IP comp3134-winter2023 > ec2-54-237-111-23.compute-1.amazonaws.com: ICMP echo reply, id 5, seq 19913, length 16
+19:11:16.068799 IP 157.245.70.39.46578 > comp3134-winter2023.http: Flags [P.], seq 1:271, ack 1, win 229, options [nop,nop,TS val 36305622 ecr 1494016664], length 270: HTTP: GET / HTTP/1.1
+19:11:16.068863 IP comp3134-winter2023.http > 157.245.70.39.46578: Flags [.], ack 271, win 507, options [nop,nop,TS val 1494017183 ecr 36305622], length 0
+19:11:16.069451 IP comp3134-winter2023.http > 157.245.70.39.46578: Flags [P.], seq 1:2558, ack 271, win 507, options [nop,nop,TS val 1494017184 ecr 36305622], length 2557: HTTP: HTTP/1.1 200 OK
+19:11:16.069579 IP comp3134-winter2023.http > 157.245.70.39.46578: Flags [F.], seq 2558, ack 271, win 507, options [nop,nop,TS val 1494017184 ecr 36305622], length 0
+19:11:16.079761 IP 128.199.64.100.41260 > comp3134-winter2023.ssh: Flags [S], seq 1006087319, win 64240, options [mss 1460,sackOK,TS val 3755754661 ecr 0,nop,wscale 7], length 0
+19:11:16.079821 IP comp3134-winter2023.ssh > 128.199.64.100.41260: Flags [S.], seq 532349900, ack 1006087320, win 65160, options [mss 1460,sackOK,TS val 1362344721 ecr 3755754661,nop,wscale 7], length 0
+19:11:16.163748 IP 157.245.70.39.46578 > comp3134-winter2023.http: Flags [.], ack 2558, win 269, options [nop,nop,TS val 36305717 ecr 1494017184], length 0
+19:11:16.203673 IP 157.245.70.39.46578 > comp3134-winter2023.http: Flags [.], ack 2559, win 269, options [nop,nop,TS val 36305757 ecr 1494017184], length 0
+19:11:16.307028 IP 128.199.64.100.41260 > comp3134-winter2023.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 3755754889 ecr 1362344721], length 0
+19:11:16.307028 IP 128.199.64.100.41260 > comp3134-winter2023.ssh: Flags [P.], seq 1:24, ack 1, win 502, options [nop,nop,TS val 3755754889 ecr 1362344721], length 23
+19:11:16.307104 IP comp3134-winter2023.ssh > 128.199.64.100.41260: Flags [.], ack 24, win 509, options [nop,nop,TS val 1362344948 ecr 3755754889], length 0
+19:11:16.317179 IP comp3134-winter2023.ssh > 128.199.64.100.41260: Flags [P.], seq 1:42, ack 24, win 509, options [nop,nop,TS val 1362344959 ecr 3755754889], length 41
+19:11:16.410781 IP 157.245.70.39.46578 > comp3134-winter2023.http: Flags [F.], seq 271, ack 2559, win 269, options [nop,nop,TS val 36305964 ecr 1494017184], length 0
+19:11:16.410823 IP comp3134-winter2023.http > 157.245.70.39.46578: Flags [.], ack 272, win 507, options [nop,nop,TS val 1494017525 ecr 36305964], length 0
+19:11:16.543933 IP 128.199.64.100.41260 > comp3134-winter2023.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 3755755126 ecr 1362344959], length 0
+19:11:16.543988 IP comp3134-winter2023.ssh > 128.199.64.100.41260: Flags [P.], seq 42:1098, ack 24, win 509, options [nop,nop,TS val 1362345185 ecr 3755755126], length 1056
+19:11:16.544011 IP 128.199.64.100.41260 > comp3134-winter2023.ssh: Flags [P.], seq 24:672, ack 42, win 502, options [nop,nop,TS val 3755755126 ecr 1362344959], length 648
+19:11:16.544029 IP comp3134-winter2023.ssh > 128.199.64.100.41260: Flags [.], ack 672, win 504, options [nop,nop,TS val 1362345185 ecr 3755755126], length 0
+19:11:16.546076 IP comp3134-winter2023.ssh > 128.199.64.100.41260: Flags [F.], seq 1098, ack 672, win 504, options [nop,nop,TS val 1362345187 ecr 3755755126], length 0
+19:11:16.770781 IP 128.199.64.100.41260 > comp3134-winter2023.ssh: Flags [F.], seq 672, ack 1098, win 501, options [nop,nop,TS val 3755755353 ecr 1362345185], length 0
+19:11:16.770832 IP comp3134-winter2023.ssh > 128.199.64.100.41260: Flags [.], ack 673, win 504, options [nop,nop,TS val 1362345412 ecr 3755755353], length 0
+19:11:16.772716 IP 128.199.64.100.41260 > comp3134-winter2023.ssh: Flags [.], ack 1099, win 501, options [nop,nop,TS val 3755755355 ecr 1362345187], length 0
+19:11:17.467228 IP 91.240.118.71.44517 > comp3134-winter2023.4146: Flags [S], seq 444929370, win 1024, length 0
+19:11:19.140661 IP 143.198.216.20.42838 > comp3134-winter2023.ssh: Flags [S], seq 3581846507, win 64240, options [mss 1460,sackOK,TS val 4209451791 ecr 0,nop,wscale 7], length 0
+19:11:19.140718 IP comp3134-winter2023 > 143.198.216.20: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:11:19.976104 IP iotserver.in.th-ubuntu-s-1vcpu-3gb-sgp1.35658 > comp3134-winter2023.ssh: Flags [S], seq 3817247095, win 64240, options [mss 1460,sackOK,TS val 562970068 ecr 0,nop,wscale 7], length 0
+19:11:19.976165 IP comp3134-winter2023 > iotserver.in.th-ubuntu-s-1vcpu-3gb-sgp1: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+19:11:20.294774 IP 71.6.232.28.45322 > comp3134-winter2023.ftp: Flags [S], seq 3963897151, win 65535, options [mss 1460], length 0

@@ -1,0 +1,1 @@
+To mitigate the issue of sensitive information being exposed in the HTML source code, we can use PHP to generate the HTML dynamically. This way, the sensitive information can be stored in a separate file or database and called when needed, without being exposed in the HTML source code. In this way, we can prevent malicious users from gaining access to confidential information.

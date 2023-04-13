@@ -1,0 +1,3 @@
+The given code is an array that lists the contents of a directory. It includes the "." and ".." directories, as well as the files "index.html" and "wk10". The URL-encoded value "%2e%2e%2f" represents "../", which is used to navigate up one level from the current directory.
+
+However, sharing this information can be dangerous as it reveals the directory structure of the server's file system. This information can be used by malicious users to understand the server's layout and identify other directories or files that may be vulnerable to attack.

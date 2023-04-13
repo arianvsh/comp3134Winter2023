@@ -1,0 +1,5 @@
+The reason why the search for "Ben" did not yield any results is because there is no row in the database with an active value of 1 for that particular input. Therefore, the PHP code correctly displays the message "No results found" in the HTML table as there is no match found for the search query.
+
+By adding a SQL comment with "--" in the input "Ben'--", the SQL query ignores the rest of the input, which results in the retrieval of all rows with an active column value of 1, regardless of the first name. Consequently, the row for "Ben" is not displayed in the HTML table.
+
+Similarly, by using the input "Ben' or 1=1", the SQL query retrieves all rows where the active column value equals 1, regardless of the first name. Hence, the row for "Ben" is not displayed in the HTML table as the search query did not specify the name as a condition.

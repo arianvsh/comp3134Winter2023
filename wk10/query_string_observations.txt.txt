@@ -1,0 +1,7 @@
+If I enter a valid English word in the website form, the website shows the word's definition and related words or phrases. The website URL also changes, and the valid English word is appended after the "/browse/" part of the URL.
+
+If I enter an invalid English word after the "/browse/" part of the website URL, the website shows an error message stating that the word I entered was not found. The invalid English word is still present at the end of the URL after the "/browse/" section.
+
+If I enter the text "<script>alert('hello')</script>" in the search box on the website form, the website displays a definition for the text that I entered, and the script is not executed. The script is treated as plain text.
+
+If I enter the text "<script>alert('hello')</script>" after the "term=" section of the website URL, the website displays a definition for the text that I entered, and the script is executed, displaying an alert dialog box with the message "hello". This shows that the website has a vulnerability where attackers could inject malicious code into the search query string.

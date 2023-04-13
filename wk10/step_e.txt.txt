@@ -1,0 +1,36 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$path = isset($_GET['q']) ? $_GET['q'] : '.';
+
+// Check if the path contains a filename
+if (strpos($path, '.') !== false) {
+  echo 'Invalid path';
+  exit();
+}
+
+// Add html directory to the path
+$path = 'html/' . $path;
+
+// Check if the path exists
+if (!file_exists($path)) {
+  echo 'Path does not exist';
+  exit();
+}
+
+// Get the basename of the path
+$basename = basename($path);
+
+// Check if the basename is not html or its parent directory
+if ($basename !== 'html' && $basename !== '..') {
+  echo 'Invalid path';
+  exit();
+}
+
+// Print the contents of the directory
+print "<pre>";
+print_r(scandir($path));
+print "</pre>";
+?>

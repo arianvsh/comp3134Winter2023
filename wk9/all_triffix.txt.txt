@@ -1,0 +1,1 @@
+ sudo tcpdump -i eth0 -w all_traffic_20220515_HHMM.pcap -s 0

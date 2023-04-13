@@ -1,0 +1,55 @@
+root@comp3134-winter2023:/var/www/html# sudo hping3 --rand-source -c 10000 -p 8 116.202.36.28
+HPING 116.202.36.28 (eth0 116.202.36.28): NO FLAGS are set, 40 headers + 0 databytes
+^C
+--- 116.202.36.28 hping statistic ---
+40 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+root@comp3134-winter2023:/var/www/html# sudo hping3 --udp -c 9000 -i u1000 -S -w 64 -p 12345 --spoof 10.0.0.99 -d 100 116.202.36.28
+HPING 116.202.36.28 (eth0 116.202.36.28): udp mode set, 28 headers + 100 data bytes
+
+--- 116.202.36.28 hping statistic ---
+9000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+root@comp3134-winter2023:/var/www/html# sudo hping3 --icmp --data 1000 -c 11000 -i u13333 -d 1000 -I eth0 --interval 7500 116.202.36.28
+HPING 116.202.36.28 (eth0 116.202.36.28): icmp mode set, 28 headers + 1000 data bytes
+len=1028 ip=116.202.36.28 ttl=47 id=50324 icmp_seq=0 rtt=110.1 ms
+len=1028 ip=116.202.36.28 ttl=47 id=50582 icmp_seq=22 rtt=108.7 ms
+len=1028 ip=116.202.36.28 ttl=47 id=50758 icmp_seq=96 rtt=108.3 ms
+len=1028 ip=116.202.36.28 ttl=47 id=50875 icmp_seq=170 rtt=107.1 ms
+len=1028 ip=116.202.36.28 ttl=47 id=51064 icmp_seq=243 rtt=105.7 ms
+len=1028 ip=116.202.36.28 ttl=47 id=51165 icmp_seq=315 rtt=108.1 ms
+len=1028 ip=116.202.36.28 ttl=47 id=51708 icmp_seq=388 rtt=107.9 ms
+len=1028 ip=116.202.36.28 ttl=47 id=51784 icmp_seq=460 rtt=108.9 ms
+len=1028 ip=116.202.36.28 ttl=47 id=52319 icmp_seq=533 rtt=106.4 ms
+len=1028 ip=116.202.36.28 ttl=47 id=52684 icmp_seq=606 rtt=105.3 ms
+len=1028 ip=116.202.36.28 ttl=47 id=52957 icmp_seq=680 rtt=110.3 ms
+len=1028 ip=116.202.36.28 ttl=47 id=53341 icmp_seq=754 rtt=107.2 ms
+len=1028 ip=116.202.36.28 ttl=47 id=54104 icmp_seq=828 rtt=105.8 ms
+len=1028 ip=116.202.36.28 ttl=47 id=54499 icmp_seq=902 rtt=105.4 ms
+len=1028 ip=116.202.36.28 ttl=47 id=54854 icmp_seq=975 rtt=109.2 ms
+len=1028 ip=116.202.36.28 ttl=47 id=55844 icmp_seq=1049 rtt=106.8 ms
+len=1028 ip=116.202.36.28 ttl=47 id=56822 icmp_seq=1123 rtt=106.1 ms
+len=1028 ip=116.202.36.28 ttl=47 id=57795 icmp_seq=1197 rtt=104.2 ms
+len=1028 ip=116.202.36.28 ttl=47 id=58653 icmp_seq=1271 rtt=104.3 ms
+len=1028 ip=116.202.36.28 ttl=47 id=59482 icmp_seq=1345 rtt=103.7 ms
+len=1028 ip=116.202.36.28 ttl=47 id=59504 icmp_seq=1419 rtt=103.3 ms
+len=1028 ip=116.202.36.28 ttl=47 id=60077 icmp_seq=1493 rtt=110.8 ms
+len=1028 ip=116.202.36.28 ttl=47 id=60911 icmp_seq=1567 rtt=103.3 ms
+len=1028 ip=116.202.36.28 ttl=47 id=61869 icmp_seq=1641 rtt=103.8 ms
+len=1028 ip=116.202.36.28 ttl=47 id=62159 icmp_seq=1715 rtt=103.9 ms
+len=1028 ip=116.202.36.28 ttl=47 id=62669 icmp_seq=1789 rtt=103.8 ms
+len=1028 ip=116.202.36.28 ttl=47 id=63477 icmp_seq=1863 rtt=103.7 ms
+len=1028 ip=116.202.36.28 ttl=47 id=64334 icmp_seq=1936 rtt=107.8 ms
+len=1028 ip=116.202.36.28 ttl=47 id=64643 icmp_seq=2009 rtt=109.1 ms
+len=1028 ip=116.202.36.28 ttl=47 id=338 icmp_seq=2151 rtt=107.5 ms
+len=1028 ip=116.202.36.28 ttl=47 id=602 icmp_seq=2222 rtt=105.7 ms
+len=1028 ip=116.202.36.28 ttl=47 id=629 icmp_seq=2294 rtt=106.2 ms
+len=1028 ip=116.202.36.28 ttl=47 id=1492 icmp_seq=2366 rtt=110.7 ms
+len=1028 ip=116.202.36.28 ttl=47 id=1819 icmp_seq=2439 rtt=110.2 ms
+len=1028 ip=116.202.36.28 ttl=47 id=2450 icmp_seq=2513 rtt=105.8 ms
+len=1028 ip=116.202.36.28 ttl=47 id=3108 icmp_seq=2587 rtt=106.0 ms
+len=1028 ip=116.202.36.28 ttl=47 id=3803 icmp_seq=2661 rtt=106.5 ms
+^C
+--- 116.202.36.28 hping statistic ---
+2716 packets transmitted, 37 packets received, 99% packet loss
+round-trip min/avg/max = 103.3/106.7/110.8 ms

@@ -1,0 +1,42 @@
+1) What is the definition of server port?
+
+
+The answer is ___________
+
+A server port is a numerical label assigned to each end point of communication in a network. 
+It is used to identify a specific process running on a server, and to direct incoming network 
+traffic to the appropriate service or application. 
+
+2) What is server port range?
+
+The answer is ___________
+A server port range refers to a range of consecutive port numbers that are assigned to a
+ specific service or application on a server.
+
+3) How many bits does number above represent?
+
+A server port is a 16-bit unsigned integer. It ranges from 0 to 65535.
+
+
+4) State 10 common server ports
+
+The answer is ___________
+HTTP (Hypertext Transfer Protocol) - Port 80
+HTTPS (HTTP Secure) - Port 443
+FTP (File Transfer Protocol) - Port 21
+SSH (Secure Shell) - Port 22
+Telnet - Port 23
+SMTP (Simple Mail Transfer Protocol) - Port 25
+DNS (Domain Name System) - Port 53
+POP3 (Post Office Protocol version 3) - Port 110
+IMAP (Internet Message Access Protocol) - Port 143
+RDP (Remote Desktop Protocol) - Port 3389
+_______________________________________________
+Explanation(s)
+_______________________________________________
+bits		5		4		3		2		1
+max vals	32		16		8		4		2
+
+
+
+2 ^ N 

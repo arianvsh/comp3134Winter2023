@@ -1,0 +1,73 @@
+19:14:23.276023 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 240140:240304, ack 109, win 501, length 164
+19:14:23.276134 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 240304:240836, ack 109, win 501, length 532
+19:14:23.276197 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 240836:241000, ack 109, win 501, length 164
+19:14:23.276271 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 241000:241164, ack 109, win 501, length 164
+19:14:23.276315 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 241164:241328, ack 109, win 501, length 164
+19:14:23.276433 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 241328:241492, ack 109, win 501, length 164
+19:14:23.276484 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 241492:241656, ack 109, win 501, length 164
+19:14:23.276538 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 241656:241820, ack 109, win 501, length 164
+19:14:23.276590 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 241820:241984, ack 109, win 501, length 164
+19:14:23.276641 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 241984:242148, ack 109, win 501, length 164
+19:14:23.276685 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 242148:242312, ack 109, win 501, length 164
+19:14:23.276728 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 242312:242476, ack 109, win 501, length 164
+19:14:23.276771 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 242476:242640, ack 109, win 501, length 164
+19:14:23.276820 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 242640:242804, ack 109, win 501, length 164
+19:14:23.276870 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 242804:242968, ack 109, win 501, length 164
+19:14:23.276916 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 242968:243132, ack 109, win 501, length 164
+19:14:23.279886 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 243132, win 512, length 0
+19:14:23.279920 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 243132:243296, ack 109, win 501, length 164
+19:14:23.280013 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 243296:243572, ack 109, win 501, length 276
+19:14:23.280059 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 243572:243736, ack 109, win 501, length 164
+19:14:23.280104 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 243736:243900, ack 109, win 501, length 164
+19:14:23.280148 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 243900:244064, ack 109, win 501, length 164
+19:14:23.280192 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 244064:244228, ack 109, win 501, length 164
+19:14:23.280235 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 244228:244392, ack 109, win 501, length 164
+19:14:23.280277 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 244392:244556, ack 109, win 501, length 164
+19:14:23.280380 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 244556:244720, ack 109, win 501, length 164
+19:14:23.280432 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 244720:244884, ack 109, win 501, length 164
+19:14:23.280477 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 244884:245048, ack 109, win 501, length 164
+19:14:23.280521 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 245048:245212, ack 109, win 501, length 164
+19:14:23.280566 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 245212:245376, ack 109, win 501, length 164
+19:14:23.280615 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 245376:245540, ack 109, win 501, length 164
+19:14:23.280665 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 245540:245704, ack 109, win 501, length 164
+19:14:23.280716 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 245704:245868, ack 109, win 501, length 164
+19:14:23.280763 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 245868:246032, ack 109, win 501, length 164
+19:14:23.282430 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245048, win 512, length 0
+19:14:23.282461 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 246032:246196, ack 109, win 501, length 164
+19:14:23.282553 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 246196:246472, ack 109, win 501, length 276
+19:14:23.282602 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 246472:246636, ack 109, win 501, length 164
+19:14:23.282647 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 246636:246800, ack 109, win 501, length 164
+19:14:23.282690 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 246800:246964, ack 109, win 501, length 164
+19:14:23.282740 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 246964:247128, ack 109, win 501, length 164
+19:14:23.282749 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245868, win 509, length 0
+19:14:23.282806 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 247128:247404, ack 109, win 501, length 276
+19:14:23.282849 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 247404:247568, ack 109, win 501, length 164
+19:14:23.282904 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 247568:247732, ack 109, win 501, length 164
+19:14:23.283039 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 247732:247896, ack 109, win 501, length 164
+19:14:23.283098 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 247896:248060, ack 109, win 501, length 164
+19:14:23.283147 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 248060:248224, ack 109, win 501, length 164
+19:14:23.283200 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 248224:248388, ack 109, win 501, length 164
+19:14:23.283248 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 248388:248552, ack 109, win 501, length 164
+19:14:23.283292 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 248552:248716, ack 109, win 501, length 164
+19:14:23.283335 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 248716:248880, ack 109, win 501, length 164
+19:14:23.285012 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245868, win 509, options [nop,nop,sack 1 {246032:246196}], length 0
+19:14:23.285012 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245868, win 509, options [nop,nop,sack 1 {246032:246472}], length 0
+19:14:23.285012 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245868, win 509, options [nop,nop,sack 1 {246032:247128}], length 0
+19:14:23.285033 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 245868:246032, ack 109, win 501, length 164
+19:14:23.285047 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 248880:249044, ack 109, win 501, length 164
+19:14:23.285163 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 249044:249784, ack 109, win 501, length 740
+19:14:23.285209 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 249784:249948, ack 109, win 501, length 164
+19:14:23.285416 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245868, win 509, options [nop,nop,sack 1 {246032:247404}], length 0
+19:14:23.285416 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245868, win 509, options [nop,nop,sack 1 {246032:248060}], length 0
+19:14:23.285416 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [.], ack 245868, win 509, options [nop,nop,sack 1 {246032:248880}], length 0
+19:14:23.285428 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 249948:250112, ack 109, win 501, length 164
+19:14:23.285528 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 250112:250724, ack 109, win 501, length 612
+19:14:23.285634 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 250724:250888, ack 109, win 501, length 164
+19:14:23.285683 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 250888:251052, ack 109, win 501, length 164
+19:14:23.285727 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 251052:251216, ack 109, win 501, length 164
+19:14:23.285843 IP comp3134-winter2023.ssh > 198.96.84.226.52967: Flags [P.], seq 251216:251380, ack 109, win 501, length 164
+19:14:23.286346 IP 198.96.84.226.52967 > comp3134-winter2023.ssh: Flags [P.], seq 109:145, ack 245868, win 509, length 36
+^C
+1576 packets captured
+1577 packets received by filter
+0 packets dropped by kernel

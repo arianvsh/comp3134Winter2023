@@ -1,0 +1,1 @@
+Observing cautionary notifications and unsuccessful attempts to access directories, and showcasing error messages on a website that is in operation can pose a security threat because it may expose confidential details about the server setup and the applications employed.
